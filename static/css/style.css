@@ -1,3 +1,22 @@
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    min-height:100%;
+    /* background-repeat: no-repeat; 
+    background-size: 100%; */
+    background-attachment: fixed;
+}
+
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+    background-size: cover;
+}
+
+
 .top-blocks {
     margin-top: 30px;
 }
