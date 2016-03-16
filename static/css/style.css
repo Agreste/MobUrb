@@ -28,10 +28,10 @@
 /* background setup */
 .background {
     background-repeat:no-repeat;
-    /* custom background-position */
+    /* custom background-position
     background-position:50% 50%;
-    /* ie8- graceful degradation */
-    background-position:50% 50%\9 !important;
+    /* ie8- graceful degradation 
+    background-position:50% 50%\9 !important;*/
     background-size: cover;
 }
 
@@ -41,9 +41,7 @@ html, body {
     height:100%;
     min-height:100%;
     /* background-repeat: no-repeat; 
-    background-size: 100%; */
-    background-attachment: fixed;
-    
+    background-size: 100%; */    
 }
 
 body {
@@ -88,7 +86,6 @@ a {
 }
 
 .content-b-title .box {
-    background-color: rgba(0,0,0,0.7);
     padding: 20px;
     max-width: 50%;
     margin: auto;
