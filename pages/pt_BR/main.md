@@ -1,6 +1,6 @@
 teste
 
-Aqui vai o video (sem caixa, mas com uma borda semelhante à da caixa)
+Aqui vai o video (sem caixa, mas com uma latgura semelhante à desta caixa)
 
 Precisamos fazer uma menubar encima que só aparece quando põe o mouse encima.
 
