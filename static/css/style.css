@@ -34,8 +34,8 @@
 /* fullscreen setup */
 html, body {
     /* give this to all tags from html to .fullscreen */
-    height:300%;
-    min-height:300%;
+    height:133%;
+    min-height:133%;
     /* background-repeat: no-repeat; 
     background-size: 100%;    */ 
 }
