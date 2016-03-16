@@ -162,7 +162,6 @@ section {
 #menubar li {
     width: 100px;
     height: 100%;
-    margin: 20px;
     display: block;
     float: right;
 }
