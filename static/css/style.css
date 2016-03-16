@@ -141,6 +141,13 @@ section {
     float: left;
 }
 
+#menubar {
+    background-color: #000;
+    width: 10%; 
+    color: #fff;
+    float: left;
+}
+
 .figure {
     margin: auto;
     text-align: center;
