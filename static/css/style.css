@@ -82,9 +82,7 @@ a {
 }
 
 .content-b-title .box {
-    padding: 20px;
     max-width: 50%;
-    margin: auto;
 }
 
 .content-b-title h1 {
@@ -105,7 +103,6 @@ a {
     vertical-align:middle;
     text-align: left;
     width: 75%;
-    max-width: 1080px;
     margin: auto;
     margin-bottom: 100%;
     font-family: OpenSans;
