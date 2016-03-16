@@ -28,7 +28,7 @@
 /* background setup */
 .background {
     background-repeat:no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 /* fullscreen setup */
