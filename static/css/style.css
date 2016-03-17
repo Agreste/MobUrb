@@ -135,16 +135,16 @@ section {
     right: 0;
     vertical-align: middle;
     z-index: 10;
+    Background-color: #000;
 }
 
 #menu img {
-    width: 10%; 
+    height: 70px;
     float: left;
 }
 
 #menubar {
     background-color: #000;
-    width: 90%; 
     color: #fff;
     font-family: BebasNeue;
     float: right;
@@ -152,6 +152,7 @@ section {
     vertical-align: middle;
     color: rgba(255,255,255, 0.8);
     position: relative;
+    height: 70px;
 }
 
 #menubar ul {
