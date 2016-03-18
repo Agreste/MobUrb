@@ -148,7 +148,6 @@ section {
 }
 
 #menubar {
-    background-color: #000;
     color: #fff;
     font-family: BebasNeue;
     float: right;
@@ -166,6 +165,7 @@ section {
 }
 
 #menubar li {
+    background-color: #000;
     width: 100px;
     height: 100%;
     display: block;
@@ -174,7 +174,7 @@ section {
 }
 
 #menubar li:hover {
-    background-color: rgba(255,255,255,0.8);
+    background-color: #999;
 }
 
 #menubar li a {
