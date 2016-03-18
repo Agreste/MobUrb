@@ -235,31 +235,8 @@ ul li:hover ul {
   visibility: visible;
 }
 
-#art-menu:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  background: rgba(0,0,0,0.6);
-  color: rgba(255,255,255,0.6);
-}
-
-#art-menu:hover ul li:hover  {
-  background-color: rgba(255,255,255, 0.7);
-}
-
-/*#art-menu:hover ul li:hover a:link {
-  font-size: 18px;
-  color: black;
-}*/
-
-#art-menu:hover ul li:hover a:hover {
-  color: black;
-}
-
-#art-menu:hover ul li a:link {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
+.fullimg {
+    width: 100%;
 }
 
 .fullvideo {
