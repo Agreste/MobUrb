@@ -1,2 +1,2 @@
 
-Um projeto bem legal.
+<img class="fullimg" alt="Mobiliário urbano" src="/static/img/Logo.png" />
