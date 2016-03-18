@@ -46,7 +46,8 @@ body {
 }
 
 a {
- color:white;
+    color:white;
+    cursor: pointer; cursor: hand;
 }
 
 .content-b a {
