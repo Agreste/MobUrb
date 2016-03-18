@@ -154,7 +154,6 @@ section {
     float: right;
     line-height: 70px;
     vertical-align: middle;
-    color: rgba(255,255,255, 0.8);
     position: relative;
     height: 70px;
 }
@@ -176,7 +175,6 @@ section {
 
 #menubar li:hover {
     background-color: rgba(255,255,255,0.8);
-    color: rgba(0,0,0, 1);
 }
 
 #menubar li a {
@@ -199,45 +197,6 @@ section {
     padding-bottom: 20px;
 }
 
-#art-menu {
-    font-family: BebasNeue;
-    float: right;
-    width: 100px;
-    height: 100%;
-    line-height: 50px;
-    vertical-align: middle;
-    padding-right: 20px;
-    padding-left: 20px;
-    color: rgba(255,255,255, 0.8);
-    position: relative;
-}
-
-#art-menu:hover {
-    background-color: rgba(255,255,255,0.8);
-    color: rgba(0,0,0, 1);
-}
-
-#art-menu ul {
-  padding: 0;
-  position: absolute;
-  top: 32px;
-  right: 0;
-  width: 200px;
-  line-height: 30px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  list-style: none;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-}
-
 ul li:hover ul {
   display: block;
   opacity: 1;
@@ -246,59 +205,6 @@ ul li:hover ul {
 
 .fullimg {
     width: 100%;
-}
-
-.fullvideo {
-  padding-top: 100px;
-}
-
-.vimeo-links {
-  background-color: rgba(0,0,0,0.8);
-  padding: 20px 0;
-  color: white;
-}
-
-.vimeo-links  a:link {
-  color: white;
-  font-size: 30px;
-}
-
-.vimeo-links  a:hover {
-  color: white;
-  font-size: 30px;
-}
-
-.vimeo-links  a:visited {
-  color: white;
-  font-size: 30px;
-}
-
-
-.top-blocks {
-    margin-top: 30px;
-}
-
-tr.even {
-    background-color: #ECF0F1;
-}
-
-th, td {
-    min-width: 80px;
-}
-
-tr.feriado {
-    background-color: #18BC9C;
-    color: white;
-}
-
-tr.tematica {
-    background-color: #3498DB;
-    color: white;
-}
-
-tr.prova {
-    background-color: #E74C3C;
-    color: white;
 }
 
 .container.content {
