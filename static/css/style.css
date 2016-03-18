@@ -179,6 +179,11 @@ section {
     color: rgba(0,0,0, 1);
 }
 
+#menubar a {
+    color #fff;
+    text-decoration: none;
+}
+
 .menuitem {
     flex: 1; /* additionally, equal width */
 }
