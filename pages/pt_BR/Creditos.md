@@ -1,2 +1,2 @@
 
-<img class="fullimg" alt="Mobiliário urbano" src="/static/img/Logo.png" />
+<img class="fullimg" alt="Mobiliário urbano" src="/static/img/creditos.jpg" />
