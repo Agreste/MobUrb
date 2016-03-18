@@ -179,7 +179,7 @@ section {
     color: rgba(0,0,0, 1);
 }
 
-#menubar a {
+#menubar a, #menubar a:visited {
     color #fff;
     text-decoration: none;
 }
