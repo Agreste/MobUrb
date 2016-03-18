@@ -148,6 +148,11 @@ section {
     float: left;
 }
 
+#menu a:hover img{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
 #menubar {
     color: #fff;
     font-family: BebasNeue;
@@ -175,17 +180,12 @@ section {
 }
 
 #menubar li:hover {
-    background-color: #999;
+    background-color: rgba(0,0,0,0.4);
 }
 
 #menubar li a {
     color #fff;
     text-decoration: none;
-}
-
-#menubar li a:hover img{
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 #menubar li a:visited {
