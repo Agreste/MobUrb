@@ -183,6 +183,11 @@ section {
     text-decoration: none;
 }
 
+#menubar li a:hover img{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
 #menubar li a:visited {
     color #fff;
 }
