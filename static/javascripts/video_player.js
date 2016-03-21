@@ -11,7 +11,6 @@ startVideos = function(videoId, playlist) {
        console.log(event);
        if (typeof(event) !== 'undefined')
            videoPlaying.play();
-       videoPlaying.style.width = '100%';
        video_idx += 1;
        if (video_idx == playlist.length) {
            video_idx = 0;
