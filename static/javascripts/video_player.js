@@ -8,7 +8,9 @@ startVideos = function(videoId, playlist) {
    function changeVideo(event) {
        videoSource.setAttribute('src', playlist[video_idx]);
        videoPlaying.load();
-       videoPlaying.play();
+       console.log(event);
+       if (typeof(event) !== 'undefined')
+           videoPlaying.play();
        videoPlaying.style.width = '100%';
        video_idx += 1;
        if (video_idx == playlist.length) {

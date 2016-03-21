@@ -17,16 +17,17 @@
         </ul>
     </div>
 </div>
-<div class="fullscreen background parallax"  data-img-width="1600" data-img-height="1064" data-diff="100">
+<div class="fullscreen background parallax"  data-img-width="" data-img-height="1064" data-diff="100">
     <div class="content-a">
         <div class="content-b-title">
             <div class="box">
                 <img alt="Mobiliário Urbano" src="/static/img/Logo.png" width="600px" />
+                <img id="botao_inicio" alt="Iniciar" src="/static/img/button.png">
             </div>
        </div>
     </div>
 </div>
-<div class="not-fullscreen background parallax">
+<div class="fullscreen background parallax">
     <div class="content-a-txt">
         <div class="content-b">
         {% block content %}
@@ -36,6 +37,7 @@
     </div>
 </div>
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/static/javascripts/jquery-scrollto.js"></script>
 <script src="/static/javascripts/video_player.js"></script>
 <script src="/static/javascripts/article.js"></script>
 <script type="text/javascript">
@@ -44,6 +46,17 @@
                     var playlist = json;
                     startVideos("videoPlaying", playlist);
                     });
+
+            $('#botao_inicio').hover(function () {
+                $(this).animate({'opacity': '0.7'});
+            }, function () {
+                $(this).animate({'opacity': '1'});
+            });
+
+            $('#botao_inicio').click(function (){ 
+               $('.content-b').ScrollTo({offsetTop: 40}); 
+               $('#videoPlaying')[0].play();
+            });
         });
 </script>
 </body>

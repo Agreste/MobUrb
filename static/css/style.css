@@ -85,6 +85,7 @@ a {
 
 .content-b-title .box {
     max-width: 50%;
+    margin: auto;
 }
 
 .content-b-title h1 {
@@ -99,6 +100,12 @@ a {
     color: #fff;
 }
 
+video {
+     background: black;
+     height: 738px;
+     width: 1280px;
+}
+
 .content-b {
 /*    display:table-cell; */
     position:relative;
@@ -108,7 +115,6 @@ a {
     margin: auto;
     margin-bottom: 100%;
     font-family: OpenSans;
-    background-color: white;
     padding: 40px 60px;
     font-size: 110%;
 }
