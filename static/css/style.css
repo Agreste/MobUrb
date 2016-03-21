@@ -84,8 +84,9 @@ a {
 }
 
 .content-b-title .box {
-    max-width: 50%;
+    width: 90%;
     margin: auto;
+    background: url(/static/img/Logo.png) no-repeat;
 }
 
 .content-b-title h1 {
