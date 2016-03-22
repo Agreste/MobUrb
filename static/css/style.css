@@ -235,6 +235,7 @@ ul li:hover ul {
 }
 
 .aboutcontent {
+    font-family: BebasNeue;
     padding: 100px 50% 100px 5%;
     text-align: justify;
 }
