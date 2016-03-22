@@ -248,5 +248,5 @@ ul li:hover ul {
 }
 
 .about a:hover {
-    color: crimson;
+    color: crimson !important;
 }
