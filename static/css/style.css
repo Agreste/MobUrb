@@ -216,8 +216,8 @@ ul li:hover ul {
     width: 100%;
 }
 
-.content {
-    margin 100px 3%;    
+.container.content {
+    margin-top: 20px;
 }
 
 #videos {
@@ -235,7 +235,11 @@ ul li:hover ul {
 }
 
 .about {
+    text-align: justify;
     color: white;
     background-color: #343132;
     box-shadow: 0.5em 0 0 #343132,-0.5em 0 0 #343132;
+}
+.aboutcontent {
+    margin 500px 3%;    
 }
