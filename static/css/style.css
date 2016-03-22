@@ -233,3 +233,9 @@ ul li:hover ul {
 .thumbs {
     margin-top: 20px;
 }
+
+.about {
+    color: white;
+    background-color: #343132;
+    box-shadow: 0.5em 0 0 #343132,-0.5em 0 0 #343132;
+}
