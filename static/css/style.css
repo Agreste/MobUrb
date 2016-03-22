@@ -234,14 +234,15 @@ ul li:hover ul {
     margin-top: 20px;
 }
 
+.aboutcontent {
+    padding: 100px 50% 100px 5%;
+    text-align: justify;
+}
+
 .about {
     line-height: 2.5em;
     margin-bottom: 30px;
-    text-align: justify;
     color: white;
     background-color: #343132;
     box-shadow: 0.5em 0 0 #343132,-0.5em 0 0 #343132;
-}
-.aboutcontent {
-    padding: 100px 50% 100px 5%;    
 }
