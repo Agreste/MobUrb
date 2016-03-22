@@ -247,6 +247,6 @@ ul li:hover ul {
     box-shadow: 0.5em 0 0 #000,-0.5em 0 0 #000;
 }
 
-.about a {
+.about a:hover {
     color: crimson;
 }
