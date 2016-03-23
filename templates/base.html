@@ -41,7 +41,7 @@
 <script src="/static/javascripts/article.js"></script>
 <script type="text/javascript">
         $(function () {
-            $.getJSON('https://roteiro.moburb.org/roteiro', function (json) {
+            $.getJSON('http://localhost:5000/roteiro', function (json) {
                     var playlist = json;
                     startVideos("videoPlaying", playlist);
                     });
