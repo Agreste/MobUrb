@@ -44,7 +44,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url('/static/img/fundo.jpg') no-repeat center center scroll; 
 }
 
 a {
