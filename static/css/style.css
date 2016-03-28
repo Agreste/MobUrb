@@ -25,15 +25,6 @@
     src: url('/static/fonts/Lekton-Regular.ttf');
 }
 
-/* background setup */
-.background {
-    background: url('/static/img/fundo.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 /* fullscreen setup */
 html, body {
     /* give this to all tags from html to .fullscreen */
@@ -46,6 +37,14 @@ html, body {
 
 body {
     background-color: black;
+}
+
+.background {
+    background: url('/static/img/fundo.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 a {
