@@ -40,7 +40,7 @@ body {
 }
 
 .background {
-    background: url('/static/img/fundo.jpg') no-repeat center center; 
+    background: url('/static/img/fundo.jpg') no-repeat center center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
