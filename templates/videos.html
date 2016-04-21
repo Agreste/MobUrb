@@ -147,5 +147,25 @@
       </g>
     </svg>
   </div>
+<script src="/static/javascripts/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="/static/javascripts/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/static/javascripts/jquery.fancybox-media.js?v=1.0.6"></script>
+<script src="/static/javascripts/jquery-scrollto.js"></script>
+<script src="/static/javascripts/bootstrap.min.js"></script>
+<script src="/static/javascripts/video_player.js"></script>
+<script src="/static/javascripts/article.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $('.fancybox-media').fancybox({
+                padding: 0,
+                openEffect  : 'none',
+                closeEffect : 'none',
+                helpers : {
+                    media : {},
+                    overlay: {css: {'background': 'rgba(0,0,0,0.7)'}}
+                }
+            });
+        });
+</script>
 </body>
 </html>
