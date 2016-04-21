@@ -256,14 +256,11 @@ ul li:hover ul {
 /* videos svg */
 
 .bgimg {
-      background: url(/static/img/arte-com-pins.jpg) no-repeat;
-      background-size: 100%;
       display: inline-block;
       position: relative;
-      padding-bottom: 100%;
       vertical-align: middle;
       overflow: hidden;
-      width:1280px;
+      width: 100%;
     }
 
     svg {
