@@ -164,7 +164,7 @@
 		},
 
 		beforeLoad : function(opts, obj) {
-			var url   = obj.xlink || '',
+			var url   = obj.href || '',
 				type  = false,
 				what,
 				item,
@@ -188,7 +188,7 @@
 			}
 
 			if (type) {
-				obj.xlink = url;
+				obj.href = url;
 				obj.type = type;
 
 				obj.autoHeight = false;
