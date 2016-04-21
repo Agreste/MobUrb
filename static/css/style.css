@@ -264,11 +264,13 @@ ul li:hover ul {
     }
 
     svg {
-      padding: 2.7% 3.3%;
+        margin-top: 2.8%;
+        margin-left: 3.4%;
+        margin-right: 3.3%;
     }
 
     path {
-      fill: rgba(0, 0, 0, 0.3);
+      fill: rgba(0, 0, 0, 0);
       transition: .3s fill;
     }
 
