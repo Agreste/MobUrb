@@ -252,3 +252,29 @@ ul li:hover ul {
 .about a:hover {
     color: crimson !important;
 }
+
+/* videos svg */
+
+.bgimg {
+      background: url(/static/img/arte-com-pins.jpg) no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 100%;
+      vertical-align: middle;
+      overflow: hidden;
+      width:1280px;
+    }
+
+    svg {
+      padding: 2.7% 3.3%;
+    }
+
+    path {
+      fill: rgba(0, 0, 0, 0);
+      transition: .3s fill;
+    }
+
+    path:hover {
+      fill: rgba(0, 0, 0, 0.5);
+    }
