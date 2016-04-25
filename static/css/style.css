@@ -269,11 +269,11 @@ ul li:hover ul {
         margin-right: 3.3%;
     }
 
-    .tooltip_path {
+    .tooltip {
       fill: rgba(0, 0, 0, 0);
       transition: .3s fill;
     }
 
-    .tooltip_path:hover {
+    .tooltip:hover {
       fill: rgba(0, 0, 0, 0.5);
     }
