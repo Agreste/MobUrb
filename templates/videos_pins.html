@@ -154,7 +154,7 @@
 <script src="/static/javascripts/bootstrap.min.js"></script>
 <script src="/static/javascripts/video_player.js"></script>
 <script src="/static/javascripts/article.js"></script>
-<script type="text/javascript">
+<script type="text/javascript"><![CDATA[
         $(function () {
             $('.fancybox-media').fancybox({
                 padding: 0,
@@ -168,15 +168,11 @@
         });
 
         $(document).ready(function () {
-            $("a").tooltip({
-                'placement': 'right'
-            });
-
-            $("svg circle").tooltip({
-                'container': 'body',
+            $("svg path").tooltip({
+                'container': 'bgimg',
                 'placement': 'right'
             });
         });
-</script>
+]]></script>
 </body>
 </html>
