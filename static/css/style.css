@@ -31,8 +31,8 @@ html, body {
     height:100%;
     min-height:100%;
     min-width: 600px;
-    /* background-repeat: no-repeat; 
-    background-size: 100%;    */ 
+    /* background-repeat: no-repeat;
+    background-size: 100%;    */
 }
 
 body {
@@ -137,7 +137,7 @@ section {
     height:50%;
 }
 
-#menu { 
+#menu {
     width: 100%;
     position: fixed;
     top: 0;
@@ -269,11 +269,11 @@ ul li:hover ul {
         margin-right: 3.3%;
     }
 
-    path {
+    .tooltip_path {
       fill: rgba(0, 0, 0, 0);
       transition: .3s fill;
     }
 
-    path:hover {
+    .tooltip_path:hover {
       fill: rgba(0, 0, 0, 0.5);
     }
