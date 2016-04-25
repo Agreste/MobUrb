@@ -272,6 +272,7 @@ ul li:hover ul {
     .tooltip_path {
       fill: rgba(0, 0, 0, 0);
       transition: .3s fill;
+      display: block;
     }
 
     .tooltip_path:hover {
