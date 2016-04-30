@@ -255,7 +255,7 @@ ul li:hover ul {
 
 /* videos svg */
 
-.bgimg {
+.pins {
       display: inline-block;
       position: relative;
       vertical-align: middle;
@@ -277,3 +277,21 @@ ul li:hover ul {
     .tooltip_path:hover {
       fill: rgba(0, 0, 0, 0.5);
     }
+
+  .nopins {
+    display: none;
+  }
+
+  @media all and (max-width: 780px) {
+    .pins {
+      display: none;
+    }
+
+    .nopins {
+          display: inline-block;
+          position: relative;
+          vertical-align: middle;
+          overflow: hidden;
+          width: 100%;
+        }
+  }
