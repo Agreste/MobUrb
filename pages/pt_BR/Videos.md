@@ -1,1 +1,1 @@
-template: videos.html
+template: videos_pins.html
