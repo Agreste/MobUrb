@@ -279,7 +279,8 @@ ul li:hover ul {
     }
 
   .nopins {
-    display: none;
+    /*display: none;*/
+    text-align: left;
   }
 
   .nopins .btn-group-vertical {
@@ -295,7 +296,6 @@ ul li:hover ul {
           display: inline-block;
           position: relative;
           vertical-align: middle;
-          overflow: hidden;
           width: 100%;
         }
   }
