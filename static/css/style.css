@@ -299,5 +299,7 @@ ul li:hover ul {
           width: 100%;
         }
 
-    .nopins li a { color: #000; }
+    .dropdown-menu li a { color: #000 !important;}
+    .btn-default {background-color: #000;}
+    .btn-default:hover {background-color: rgba(0,0,0,0.7);}
   }
