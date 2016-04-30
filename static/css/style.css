@@ -282,6 +282,10 @@ ul li:hover ul {
     display: none;
   }
 
+  .nopins .btn-group-vertical {
+    margin-top: 150px;
+  }
+
   @media all and (max-width: 780px) {
     .pins {
       display: none;
